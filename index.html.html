@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kedeswar Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="styles\Kedes.css">
+
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <p>Kedeswar Reddy</p>
+            </div>
+            <ul>
+                <li><a href="#about" >About</a></li>
+                <li><a href="#projects" >Projects</a></li>
+                <li><a href="https://docs.google.com/document/d/1Muzysu1YQ2zAxJKeKkgIAPT1jfJDZ9uH/edit?usp=sharing&ouid=116485429746627895537&rtpof=true&sd=true" >Resume</a></li>
+                <li><a href="#footer" id="Contact">Contact</a></li>
+    
+            </ul>
+        </nav>
+       
+        
+        <!-- My projects -->
+        <section class="my-services" id="projects">
+            <h2 class="section__title section__title--services">Projects</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Chat Bot</h3>
+                    <p>A python application developed for a college website to answer the queries of students and parents about college. This project was developed by using chatterbot package.</p>
+                    <p>Technologies used: Python chatterbot</p>
+                    <img src="images\chatbot.jpg" alt="project chatbot" style="padding-left:80px;">
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Personal Portfolio</h3>
+                    <p>The collection of web pages to represent myself such as work, skills, projects.</p>
+                    <p>Technologies used:HTML and CSS</p>
+                    <img src="images\Screenshot 2022-11-15 223933.png" alt="project chatbot">
+                </div> <!-- / service -->
+                
+                
+            
+         
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About</h2>
+           <p class="section__subtitle section__subtitle--about">Kedeswar Reddy</p>
+           <p class="section__subtitle section__subtitle--about">Computer Science Student</p>
+           
+           <div class="about-me__body">
+               <p>Computer Science student, passionate towards learning and exploring new technologies and skills. Keen to implement my learnings on real world projects. Having the abilities of problem solving, critical thinking and self motivation, helped me to gain proficiency in different programming languages like Python and Web Technologies . Looking forward to real time opportunities to advance my current knowledge.</p>
+           </div>
+           
+           <img src="images\kedesphoto.jpg" alt="kedesphoto" class="about-me__img">
+        </section>
+        
+       
+            
+        
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <!-- replace with your own email address -->
+           
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/kedeswar-reddy-40451a225">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:kedeswarreddy@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/kedeswar7">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <small>&copy;Kedeswar Reddy. All Rights Reserved.</small>
+            </div>
+        </footer>
+        
+        
+        <script src="js/index.js">
+           const Contact= document.getElementById("Contact")
+           Contact.addEventListener("click",()=>{
+            const text=Contact.textContent="shiva"
+           })
+        </script>
+        
+    </body>
+</html>
